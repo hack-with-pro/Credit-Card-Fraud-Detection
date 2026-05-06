@@ -1,0 +1,23 @@
+Enhanced Credit Card Fraud Detection Report
+=============================================
+Dataset: creditcard.csv
+Best model: Extra Trees
+Decision threshold: 0.475
+
+ROC-AUC: 0.9738
+PR-AUC: 0.8750
+F1 score: 0.8619
+Precision: 0.9398
+Recall: 0.7959
+Balanced accuracy: 0.8979
+
+Top-alert precision@100: 0.8400
+Top-alert recall@100: 0.8571
+
+Generated files:
+- model_benchmark.csv
+- threshold_search.csv
+- high_risk_transactions.csv
+- feature_importance.png
+- score_distribution.png
+- confusion_matrix.csv
